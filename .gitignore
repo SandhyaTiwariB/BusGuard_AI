@@ -10,12 +10,6 @@ env/
 venv/
 ENV/
 
-# Large Raw Archives (Processed CSVs are kept in data/processed/)
-data/raw/*.zip
-data/raw/*.xlsx
-data/raw/Fault Simulation Dataset for 110 kV Power Transmission Lines/
-data/raw/plc_industrial_control/
-
 # IDE & OS
 .vscode/
 .idea/
