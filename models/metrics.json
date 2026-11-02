@@ -1,0 +1,87 @@
+{
+  "primary_model": "RandomForestClassifier",
+  "feature_cols": [
+    "contact_resistance_mOhm",
+    "initial_resistance_mOhm",
+    "resistance_delta_mOhm",
+    "resistance_ratio",
+    "exposure_hours",
+    "exposure_cycles",
+    "prior_field_age_years",
+    "dielectric_pass",
+    "stress_type_code"
+  ],
+  "classes": [
+    "Intermediate connection",
+    "Loose connection",
+    "Tight connection"
+  ],
+  "train_samples": 142,
+  "test_samples": 48,
+  "unique_specimens": 35,
+  "rf_train_accuracy": 0.9929577464788732,
+  "rf_test_accuracy": 1.0,
+  "rf_precision_macro": 1.0,
+  "rf_recall_macro": 1.0,
+  "rf_f1_macro": 1.0,
+  "rf_f1_weighted": 1.0,
+  "rf_confusion_matrix": [
+    [
+      25,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0
+    ],
+    [
+      0,
+      0,
+      8
+    ]
+  ],
+  "feature_importances": {
+    "contact_resistance_mOhm": 0.4945316200488883,
+    "initial_resistance_mOhm": 0.1932904517082065,
+    "resistance_delta_mOhm": 0.15837791068968626,
+    "resistance_ratio": 0.055344780016639304,
+    "prior_field_age_years": 0.050491231386542094,
+    "stress_type_code": 0.022492872953848688,
+    "exposure_hours": 0.014446555242080193,
+    "exposure_cycles": 0.011024577954108621,
+    "dielectric_pass": 0.0
+  },
+  "model_comparison": [
+    {
+      "model": "Random Forest Classifier",
+      "train_accuracy": 0.9929577464788732,
+      "test_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    {
+      "model": "Decision Tree Classifier",
+      "train_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    {
+      "model": "Logistic Regression (Scaled)",
+      "train_accuracy": 0.9295774647887324,
+      "test_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9030155510480053
+    }
+  ],
+  "isolation_forest": {
+    "total_samples": 480,
+    "anomalous_burst_samples": 39,
+    "contamination": 0.08
+  },
+  "train_accuracy": 0.9929577464788732,
+  "test_accuracy": 1.0,
+  "test_precision_macro": 1.0,
+  "test_recall_macro": 1.0,
+  "test_f1_macro": 1.0,
+  "test_f1_weighted": 1.0
+}

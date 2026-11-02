@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Large Raw Archives (Processed CSVs are kept in data/processed/)
+data/raw/*.zip
+data/raw/*.xlsx
+data/raw/Fault Simulation Dataset for 110 kV Power Transmission Lines/
+data/raw/plc_industrial_control/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Agent Logs & Temporary Scratchpads
+.gemini/
+.system_generated/
+

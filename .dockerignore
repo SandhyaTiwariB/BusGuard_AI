@@ -1,0 +1,31 @@
+# Git & Version Control
+.git
+.gitignore
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+
+# Heavy Raw Datasets & Archives (not required for runtime inference)
+data/raw/*.zip
+data/raw/*.xlsx
+data/raw/Fault Simulation Dataset for 110 kV Power Transmission Lines/
+data/raw/plc_industrial_control/
+data/raw/connector_degradation_sheets/
+
+# IDE & Editor Cache
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Brain / Session Logs
+.gemini/
+.system_generated/
+

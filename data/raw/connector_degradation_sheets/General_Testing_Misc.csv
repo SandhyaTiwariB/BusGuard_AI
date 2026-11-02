@@ -1,0 +1,77 @@
+Connector,Mfr,Mfr origin,Climate,Location,Material,Field Age of connector years,Dielectric Voltage Withstand test, Insulation Resistance test ,IP test,Glow wire 
+CC1 ,Staubli MC4,B,Neutral,Laboratory A,PC,0,1,1,1,1
+CS2 ,TV Nord,C,Neutral,Laboratory A,PPO,0,1,1,1,1
+CS3 ,Elmex,C,Neutral,Laboratory A,PPO,0,1,1,1,1
+ CSC,Renhesolar,A,Neutral,Laboratory A,PC,0,1,1,1,1
+L2_A5,"RENHESOLAR
+ZJRH 05-8
+","A
+",Cold ,"Leh
+",PC,2,1,0,1,1
+L2_A6 ,"RENHESOLAR
+ZJRH 05-8
+","A
+",Cold ,"Leh
+",PC,2,1,1,1,1
+J8_B5 ,Staubli MC4,B,Warm ,"Deogarh
+",PC,8,1,1,0,1
+J8_B6 ,Staubli MC4,B,Warm ,"Deogarh
+",PC,8,1,0,1,1
+P2_C1 ,Staubli MC4,B,Rainy,"Pune
+",PC,2,0,0,0,0
+P2C2 ,Staubli MC5,B,Rainy,"Pune
+",PC,2,1,1,1,1
+P4_C10 ,"TUV NORD
+","C
+",Rainy,"Pune
+",PPO,4,1,1,0,0
+P4_C11 ,"TUV NORD
+","C
+",Rainy,"Pune
+",PPO,4,1,1,1,1
+DO6_E3 ,"ELMEX 
+","C
+",Warm ,"Dehradoon
+",PPO,6,1,0,1,1
+DO6_E4,"ELMEX 
+","C
+",Warm ,"Dehradoon
+",PPO,6,1,0,1,1
+T4_F4,Staubli MC4,B,Hot,"Tirunelveli 
+",PC,4,1,0,1,1
+DE4_G4 ,"RENHESOLAR
+ZJRH
+","A
+",Hot,Delhi,PC,4,0,0,1,1
+DE4G5 ,"RENHESOLAR
+ZJRH
+","A
+",Hot,Delhi,PC,4,1,1,1,1
+K2_H1 ,unknown,unknown,Hot,"Cochin
+",UNKNOWN,2,0,0,0,1
+K2_H2 ,unknown,unknown,Hot,"Cochin
+",UNKNOWN,2,1,0,1,1
+R6_I3,"SUNTER
+","C
+",Hot,"Jaipur
+",PPO,6,0,0,0,1
+I4_J3 ,"Xinhui
+","A
+",Warm ,"Imphal
+",UNKNOWN,4,1,0,1,1
+I4_J4 ,"Xinhui
+","A
+",Warm ,"Imphal
+",UNKNOWN,4,1,0,1,1
+R10_L1 ,Staubli MC4,B,Hot ,Jaisalmer,PPO,10,1,0,1,1
+R10_L2 ,"NBJH, TUV NORD
+","C
+",Hot ,Jaisalmer,PPO,10,1,0,1,1
+R10_L4 ,"Yukita 
+",D,Hot ,Jaisalmer,PPO,10,1,0,1,1
+R10_L5 ,"Bizlink Sunbolts
+","H
+",Hot ,Jaisalmer,PPO,10,1,1,1,1
+R10_L8,"WM4 
+","I
+",Hot ,Jaisalmer,PPO,10,1,1,1,1

@@ -1,0 +1,9 @@
+joint_id,joint_name,section,phase,torque_rating_Nm,measured_torque_Nm,temperature_C,current_A,voltage_drop_mV,contact_resistance_mOhm,acoustic_rms_adc,acoustic_p2p_adc,acoustic_crest_factor,condition,health_index,alert_status,recommendation
+J01,Main Incomer Phase A,Incomer Section 1,A,55.0,54.2,28.5,420.0,0.55,1.31,142.3,980,2.44,Tight connection,96.2,NORMAL,Nominal operational status. Maintain regular scheduled quarterly inspection.
+J02,Main Incomer Phase B,Incomer Section 1,B,55.0,38.5,48.2,415.0,2.25,5.42,265.4,2150,2.87,Intermediate connection,68.4,ATTENTION,Elevated contact resistance and thermal rise detected. Schedule thermal imaging and torque verification at next maintenance window.
+J03,Main Incomer Phase C,Incomer Section 1,C,55.0,21.0,78.6,410.0,7.8,19.02,512.8,2890,1.99,Loose connection,31.5,CRITICAL,CRITICAL: Severe contact resistance escalation with high acoustic micro-arcing. Immediate physical inspection and bolt retorquing required to prevent thermal runaway.
+J04,Bus-Tie Coupler Joint,Coupler Section,A-B-C,70.0,69.1,29.1,310.0,0.4,1.29,135.0,890,2.33,Tight connection,97.5,NORMAL,Joint integrity optimal. No immediate action required.
+J05,Feeder 1 Phase A Joint,Feeder Bay 1,A,45.0,44.0,31.4,185.0,0.32,1.73,158.2,1040,2.32,Tight connection,93.8,NORMAL,Feeder connection within standard tolerance. Continue continuous telemetry.
+J06,Feeder 1 Phase B Joint,Feeder Bay 1,B,45.0,33.0,44.7,190.0,1.25,6.58,235.6,1920,2.88,Intermediate connection,71.2,ATTENTION,Moderate thermal offset. Monitor vibration spectrum; inspect contact surfaces during scheduled maintenance.
+J07,Feeder 2 Phase C Joint,Feeder Bay 2,C,45.0,43.8,30.2,160.0,0.26,1.62,140.5,910,2.29,Tight connection,94.6,NORMAL,Stable connection. Temperature and acoustic metrics nominal.
+J08,Neutral Return Bus Joint,Neutral Ground Bus,N,50.0,49.5,26.8,45.0,0.05,1.11,128.0,840,2.32,Tight connection,98.4,NORMAL,Neutral bus connection healthy.

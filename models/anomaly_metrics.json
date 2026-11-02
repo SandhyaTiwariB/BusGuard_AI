@@ -1,0 +1,15 @@
+{
+  "model_type": "IsolationForest",
+  "feature_cols": [
+    "temp_rise_C",
+    "temp_roc_C_per_sec",
+    "ac_rms_adc",
+    "ac_peak_to_peak_adc",
+    "acoustic_crest_factor",
+    "mic_dc_deviation"
+  ],
+  "contamination": 0.08,
+  "total_samples": 480,
+  "anomaly_samples": 39,
+  "anomaly_percentage": 8.125
+}

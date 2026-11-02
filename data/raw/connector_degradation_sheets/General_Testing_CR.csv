@@ -1,0 +1,78 @@
+Connector,Cable Length with Connector mm,Mfr origin,Mfr,Climate,Location,Material,Field Age of connector years,Contact Resistance  of cable Miliohm," Contact Resistance Connector Miliohm
+",,,,,,,,,,,
+CC1 ,58,B,Staubli MC4 ,Neutral,Laboratory A,PC,0,0.24360000000000001,0.99639999999999995,,,,,,,,,,,
+CS2 ,112,C,TV Nord,Neutral,Laboratory A,PPO,0,0.47039999999999998,1.9796000000000002,,,,,,,,,,,
+CS3 ,0,C,Elmex,Neutral,Laboratory A,PPO,0,0,0.43,,,,,,,,,,,
+ CSC,0,A,Renhesolar,Neutral,Laboratory A,PC,0,0,1.26,,,,,,,,,,,
+L2_A5,26,"A
+","RENHESOLAR
+ZJRH 05-8
+",Cold,"Leh
+",PC,2,0.109,3.141,,,,,,,,,,,
+L2_A6 ,44,"A
+","RENHESOLAR
+ZJRH 05-8
+",Cold ,"Leh
+",PC,2,0.18479999999999999,2.1751999999999998,,,,,,,,,,,
+J8_B5 ,340,B,Staubli MC4,Warm ,"Deogarh
+",PC,8,1.4279999999999999,3.3220000000000001,,,,,,,,,,,
+J8_B6 ,310,B,Staubli MC4,Warm ,"Deogarh
+",PC,8,1.302,2.2279999999999998,,,,,,,,,,,
+P2_C1 ,175,B,Staubli MC4,Rainy,"Pune
+",PC,2,0.73499999999999999,2.2050000000000001,,,,,,,,,,,
+P2C2 ,130,B,Staubli MC5,Rainy,"Pune
+",PC,2,0.54600000000000004,1.7339999999999998,,,,,,,,,,,
+P4_C10 ,215,"C
+","TUV NORD
+",Rainy,"Pune
+",PPO,4,0.90300000000000002,3.6969999999999996,,,,,,,,,,,
+P4_C11 ,215,"C
+","TUV NORD
+",Rainy,"Pune
+",PPO,4,0.90300000000000002,2.6869999999999998,,,,,,,,,,,
+DO6_E3 ,20,"C
+","ELMEX 
+",Warm ,"Dehradoon
+",PPO,6,8.4000000000000005E-2,2.0960000000000001,,,,,,,,,,,
+DO6_E4,10,"C
+","ELMEX 
+",Warm ,"Dehradoon
+",PPO,6,4.2000000000000003E-2,1.5680000000000001,,,,,,,,,,,
+T4_F4,218,B,Staubli MC4,Hot,"Tirunelveli 
+",PC,4,0.91559999999999997,2.4744000000000002,,,,,,,,,,,
+DE4_G4 ,3,"A
+","RENHESOLAR
+ZJRH
+",Hot,Delhi,PC,4,0,14,,,,,,,,,,,
+DE4G5 ,3,"A
+","RENHESOLAR
+ZJRH
+",Hot,Delhi,PC,4,0,3.33,,,,,,,,,,,
+K2_H1 ,5,unknown,unknown,Hot,"Cochin
+",UNKNOWN,2,0,1.63,,,,,,,,,,,
+K2_H2 ,5,unknown,unknown,Hot,"Cochin
+",UNKNOWN,2,0,1.77,,,,,,,,,,,
+R6_I3,246,"C
+","SUNTER
+",Hot,"Jaipur
+",PPO,6,1.0329999999999999,16.966999999999999,,,,,,,,,,,
+I4_J3 ,12,"A
+","Xinhui
+",Warm ,"Imphal
+",UNKNOWN,4,0.05,1.46,,,,,,,,,,,
+I4_J4 ,12,"A
+","Xinhui
+",Warm ,"Imphal
+",UNKNOWN,4,0.05,1.46,,,,,,,,,,,
+R10_L1 ,675,B,Staubli MC4,Hot ,Jaisalmer,PPO,10,2.835,4.4550000000000001,,,,,,,,,,,
+R10_L2 ,575,"C
+","NBJH
+",Hot ,Jaisalmer,PPO,10,2.415,6.6949999999999994,,,,,,,,,,,
+R10_L4 ,805,D,"Yukita 
+",Hot ,Jaisalmer,PPO,10,3.3809999999999998,7.9489999999999998,,,,,,,,,,,
+R10_L5 ,860,"H
+","Bizlink Sunbolts
+",Hot ,Jaisalmer,PPO,10,3.6120000000000001,6.3480000000000008,,,,,,,,,,,
+R10_L8,970,"I
+","WM4 
+",Hot ,Jaisalmer,PPO,10,4.0739999999999998,20.225999999999999,,,,,,,,,,,

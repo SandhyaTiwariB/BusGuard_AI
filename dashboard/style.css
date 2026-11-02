@@ -1,0 +1,238 @@
+/* ==========================================================================
+   BusGuard AI — Industrial Cyber-Physical Monitoring UI Theme
+   Deep Navy, Charcoal, Electric Blue (#38BDF8), Teal (#14B8A6)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --bg-main: #0B1120;
+    --bg-card: #0F172A;
+    --bg-card-hover: #1E293B;
+    --border-subtle: #1E293B;
+    --border-glow: rgba(56, 189, 248, 0.25);
+    
+    --text-primary: #F8FAFC;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+    
+    --accent-blue: #38BDF8;
+    --accent-teal: #14B8A6;
+    --status-normal: #10B981;
+    --status-warning: #F59E0B;
+    --status-critical: #EF4444;
+}
+
+/* Global Application Styling */
+.stApp {
+    background-color: var(--bg-main) !important;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    color: var(--text-primary) !important;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #070D19 !important;
+    border-right: 1px solid #1E293B !important;
+}
+
+/* Logo and Header Block */
+.brand-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 8px 24px 8px;
+    border-bottom: 1px solid #1E293B;
+    margin-bottom: 20px;
+}
+
+.brand-title {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #F8FAFC;
+    margin: 0;
+}
+
+.brand-subtitle {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent-blue);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Status Indicator Pill in Sidebar */
+.system-status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #34D399;
+    margin-bottom: 20px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #10B981;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #10B981;
+}
+
+/* Metric KPI Cards */
+.kpi-card {
+    background: #0F172A;
+    border: 1px solid #1E293B;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.kpi-card:hover {
+    border-color: var(--border-glow);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.kpi-card-topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+}
+
+.kpi-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.kpi-value {
+    font-size: 32px;
+    font-weight: 800;
+    color: #F8FAFC;
+    line-height: 1.1;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.kpi-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 6px;
+}
+
+/* Busbar Joint Nodes Container */
+.busbar-diagram-container {
+    background: #0A0F1D;
+    border: 1px solid #1E293B;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 28px;
+}
+
+/* Card Containers */
+.glass-panel {
+    background: #0F172A;
+    border: 1px solid #1E293B;
+    border-radius: 12px;
+    padding: 22px;
+    margin-bottom: 20px;
+}
+
+.panel-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F8FAFC;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Status Badges */
+.badge-normal {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    border-radius: 6px;
+    color: #34D399;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.badge-attention {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    background: rgba(245, 158, 11, 0.12);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    border-radius: 6px;
+    color: #FBBF24;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.badge-critical {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.5);
+    border-radius: 6px;
+    color: #F87171;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Streamlit Tabs Customization */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: transparent;
+    border-bottom: 1px solid #1E293B;
+    gap: 16px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: var(--text-secondary);
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 6px 6px 0 0;
+}
+
+.stTabs [aria-selected="true"] {
+    color: var(--accent-blue) !important;
+    border-bottom: 2px solid var(--accent-blue) !important;
+    background: rgba(56, 189, 248, 0.05);
+}
+
+/* Streamlit Input fields */
+div[data-baseweb="select"] > div,
+input.stTextInput {
+    background-color: #070D19 !important;
+    border-color: #1E293B !important;
+    color: #F8FAFC !important;
+}
+
+/* Code and Data Table styling */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #1E293B !important;
+    border-radius: 8px !important;
+}
+
